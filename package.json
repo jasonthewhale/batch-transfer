@@ -21,6 +21,11 @@
         "prettier-plugin-solidity": "^1.0.0-dev.22",
         "solidity-coverage": "^0.7.21"
     },
+    "files": [
+        "/contracts/**/*.sol",
+        "/build/contracts/*.json",
+        "!/contracts/mocks/**/*"
+    ],
     "license": "MIT",
     "name": "batch-transfer",
     "scripts": {
