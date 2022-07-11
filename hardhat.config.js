@@ -32,11 +32,11 @@ module.exports = {
     networks: {
         mainnet: {
             url: mainnet.url,
-            accounts: [mainnet.key]
+            accounts: [mainnet.privateKey]
         },
         ropsten: {
             url: ropsten.url,
-            accounts: [ropsten.key]
+            accounts: [ropsten.privateKey]
         }
     },
     plugins: ['solidity-coverage'],
